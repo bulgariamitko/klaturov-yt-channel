@@ -35,9 +35,9 @@ Imagine this: You make changes in FlutterFlow, push one button, and your app aut
 
 No more manual builds, no more command line frustration. Just push and deploy.
 
-**[Screen: Example CheapestAPP project]**
+**[Screen: Example production app project]**
 
-I'll be using a real production app I built called "CheapestAPP" as our reference. This app is live on both app stores and uses this exact deployment process.
+I'll be using a real production app as our reference. This app is live on both app stores and uses this exact deployment process.
 
 Let's get started!
 
@@ -94,7 +94,7 @@ Here's where the magic happens. FlutterFlow has built-in GitHub integration.
 **[Click "Create GitHub Repository" button]**
 
 Click this button. FlutterFlow will open a dialog where you can:
-- Choose your repository name (I'll use "cheapest-app")
+- Choose your repository name (I'll use "my-flutter-app")
 - Select Public or Private (I recommend Private for production apps)
 
 **[Create repository]**
