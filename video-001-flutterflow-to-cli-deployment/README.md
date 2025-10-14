@@ -99,11 +99,17 @@ base64 -i upload-keystore.jks -o keystore-base64.txt
 1. Go to **Google Play Console** > **Setup** > **API access**
 2. Click **Create new service account**
 3. Follow link to Google Cloud Console
-4. Create service account (e.g., `github-actions`)
-5. Download JSON key file
-6. Back in Play Console, grant permissions:
-   - **Admin** (View app information and download bulk reports)
-   - **Release to testing tracks** (Release apps to testing tracks)
+4. Click **+ CREATE SERVICE ACCOUNT**
+5. Set name (e.g., `github-actions`) and click **Create**
+6. Skip role assignment (click **Continue** without selecting a role)
+7. Click **Done**
+8. Click on the service account you just created
+9. Go to **Keys** tab > **Add Key** > **Create new key**
+10. Select **JSON** format and click **Create**
+11. Download JSON key file (save securely)
+12. Back in Play Console, grant permissions to the service account:
+    - **Admin** (View app information and download bulk reports)
+    - **Release to testing tracks** (Release apps to testing tracks)
 
 ### Convert Service Account JSON to Base64
 
