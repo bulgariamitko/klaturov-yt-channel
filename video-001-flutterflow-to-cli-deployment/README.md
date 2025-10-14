@@ -35,7 +35,38 @@ Technical guide for setting up automated deployment from FlutterFlow projects to
 
 ---
 
-## Step 2: Prepare Android Signing Credentials
+## Step 2: Regenerate App Icons
+
+After exporting from FlutterFlow, regenerate app icons for proper deployment:
+
+1. Clone the repository locally:
+   ```bash
+   git clone https://github.com/username/your-repo.git
+   cd your-repo
+   ```
+
+2. Install dependencies:
+   ```bash
+   flutter pub get
+   ```
+
+3. Regenerate app icons:
+   ```bash
+   dart run flutter_launcher_icons
+   ```
+
+4. Commit and push the regenerated icons:
+   ```bash
+   git add android/app/src/main/res/ ios/Runner/Assets.xcassets/
+   git commit -m "Regenerate app icons"
+   git push origin main
+   ```
+
+**Note:** FlutterFlow generates icons during their build process, but when deploying from GitHub directly, icons need to be regenerated locally using `flutter_launcher_icons`.
+
+---
+
+## Step 3: Prepare Android Signing Credentials
 
 ### Download Keystore from FlutterFlow
 
@@ -82,7 +113,7 @@ base64 -i google-play-service-account.json -o service-account-base64.txt
 
 ---
 
-## Step 3: Prepare iOS Signing Credentials
+## Step 4: Prepare iOS Signing Credentials
 
 ### Get App Store Connect API Keys
 
@@ -105,7 +136,7 @@ base64 -i ios_distribution_key.pem -o ios-key-base64.txt
 
 ---
 
-## Step 4: Configure GitHub Secrets
+## Step 5: Configure GitHub Secrets
 
 1. Go to GitHub repository
 2. Click **Settings** > **Secrets and variables** > **Actions**
@@ -139,7 +170,7 @@ base64 -i ios_distribution_key.pem -o ios-key-base64.txt
 
 ---
 
-## Step 5: Create GitHub Actions Workflows
+## Step 6: Create GitHub Actions Workflows
 
 ### Create Workflow Directory
 
@@ -357,7 +388,7 @@ jobs:
 
 ---
 
-## Step 6: Configure Android Build Settings
+## Step 7: Configure Android Build Settings
 
 ### Update `android/app/build.gradle`
 
@@ -415,7 +446,7 @@ ios/keys/
 
 ---
 
-## Step 7: Deploy
+## Step 8: Deploy
 
 ### Push to GitHub
 
