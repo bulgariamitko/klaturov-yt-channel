@@ -37,23 +37,25 @@ Technical guide for setting up automated deployment from FlutterFlow projects to
 
 ## Step 2: Prepare Android Signing Credentials
 
-### Generate Upload Keystore
+### Download Keystore from FlutterFlow
 
+1. In FlutterFlow, navigate to **Settings** > **Mobile Deployment** > **Android**
+2. Click the orange **Key** button to download your `.jks` keystore file
+3. Save the file securely (e.g., `~/Documents/app-keys/upload-keystore.jks`)
+4. Note the keystore details from FlutterFlow:
+   - Keystore password
+   - Key password
+   - Key alias
+
+**Alternative:** Generate your own keystore using `keytool`:
 ```bash
 cd ~/Documents/app-keys
-
 keytool -genkey -v -keystore upload-keystore.jks \
   -keyalg RSA -keysize 2048 -validity 10000 \
   -alias upload \
   -storepass YOUR_STORE_PASSWORD \
   -keypass YOUR_KEY_PASSWORD
 ```
-
-Save these values:
-- Keystore password
-- Key password
-- Key alias
-- Path to `.jks` file
 
 ### Convert Keystore to Base64
 
