@@ -2,6 +2,16 @@
 
 Welcome to the official repository for my YouTube channel! This repo contains code samples, project files, and resources from my videos.
 
+## Table of Contents
+
+- [About Me](#about-me)
+- [Channel Focus](#channel-focus)
+- [Repository Structure](#repository-structure)
+- [How to Use This Repository](#how-to-use-this-repository)
+- [Connect With Me](#connect-with-me)
+- [Contributing](#contributing)
+- [License](#license)
+
 ## About Me
 
 I'm currently focused on leveraging LLM CLI tools, such as Claude Code, to build and deploy apps efficiently.
