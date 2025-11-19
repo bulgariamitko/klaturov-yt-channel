@@ -1,5 +1,7 @@
 # Dimitar Klaturov - YouTube Channel Resources
 
+[![My links](https://img.shields.io/badge/-My%20Links-purple?style=for-the-badge&logo=linktree&logoColor=white)](https://linktr.ee/klaturov)
+
 Welcome to the official repository for my YouTube channel! This repo contains code samples, project files, and resources from my videos.
 
 ## Table of Contents
