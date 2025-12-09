@@ -7,6 +7,7 @@ Welcome to the official repository for my YouTube channel! This repo contains co
 ## Table of Contents
 
 - [About Me](#about-me)
+- [Channel Members](#channel-members)
 - [Channel Focus](#channel-focus)
 - [Repository Structure](#repository-structure)
 - [How to Use This Repository](#how-to-use-this-repository)
@@ -21,6 +22,27 @@ I'm currently focused on leveraging LLM CLI tools, such as Claude Code, to build
 Previously, I was deeply involved with FlutterFlow, where I served as a moderator, issue tracker, and beta tester. In 2023, I was honored to be recognized as a FlutterFlow Ambassador.
 
 With a strong background in PHP, JavaScript, and Dart, I bring solid experience in both web and mobile app development. My journey with FlutterFlow allowed me to contribute to the community's growth, provide feedback, and help others master the platform—an experience that continues to shape how I approach modern development with AI-driven tools today.
+
+## Channel Members
+
+A huge thank you to my channel members who support the channel! Your contributions help me create more content and improve the quality of my tutorials.
+
+### Klaturov Elite
+| Mark Ciccarelli |
+
+### Klaturov Devotees
+| JP |
+
+### Klaturov Fanatic
+| Agbaje Ayomide | Belal Kamara | Cairo Greco | ChaplainCare | Dane Blackwell |
+| Daniel Petro | Dev PRINCIPAL | Doğal GÜZELSOY | Herbert Riener | Hilmi Berk Turan |
+| Indy Puaar | Ken Martin | Loukas Ioannidis | Omar Hossam | Rajeev Sharma |
+| Sherry Schwegmann | darkmoon3d | emm mosamm | s3zgin | trevize0101 |
+
+### Klaturov Cadet
+| Jaco Laubscher | Mick van der Heijden | Petr Horak | Seong Marcus | jr novera | the punisher |
+
+*Want to join? Become a channel member on [YouTube](https://www.youtube.com/@dimitarklaturov) to get your name featured here!*
 
 ## Channel Focus
 
