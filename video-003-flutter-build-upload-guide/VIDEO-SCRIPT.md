@@ -170,7 +170,7 @@ xcrun altool --upload-app \
   --type ios \
   --file build/ios/ipa/*.ipa \
   --apiKey ABC123XYZ \
-  --apiIssuer 6167cdf0-4e7f-4998-bfc7-44c636e911f3
+  --apiIssuer YOUR_ISSUER_ID
 ```
 
 **You:**
@@ -190,7 +190,7 @@ xcrun altool --upload-app \
 **[Show success message]**
 ```
 UPLOAD SUCCEEDED with no errors
-Delivery UUID: c51a5963-e53a-4fdc-83b3-d17138bc5bc8
+Delivery UUID: xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
 Transferred 24209525 bytes in 2.030 seconds
 ```
 

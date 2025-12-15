@@ -420,7 +420,7 @@ pwd
 **[Screen: Output showing path]**
 
 ```
-/Users/dimitarklaturov/work/ecommerce
+/Users/username/work/ecommerce
 ```
 
 **[Highlight and copy]**
@@ -448,7 +448,7 @@ Open `~/.claude.json` again. This time, find or create the `projects` section:
 This is NEW - the `projects` section.
 
 ```json
-    "/Users/dimitarklaturov/work/ecommerce": {
+    "/Users/username/work/ecommerce": {
 ```
 
 **[Pause - highlight]**
@@ -492,13 +492,13 @@ Let's add your blog project:
 ```json
 {
   "projects": {
-    "/Users/dimitarklaturov/work/ecommerce": {
+    "/Users/username/work/ecommerce": {
       "mcpServers": {
         "firebase": { /* ... */ },
         "sentry": { /* ... */ }
       }
     },
-    "/Users/dimitarklaturov/personal/blog": {
+    "/Users/username/personal/blog": {
       "mcpServers": {
         "chrome-devtools": {
           "type": "stdio",
@@ -551,7 +551,7 @@ Only global servers show!
 **[Middle screen: Terminal]**
 
 ```bash
-cd /Users/dimitarklaturov/work/ecommerce
+cd /Users/username/work/ecommerce
 claude mcp list
 ```
 
@@ -570,7 +570,7 @@ E-commerce project sees all three!
 **[Right screen: Terminal]**
 
 ```bash
-cd /Users/dimitarklaturov/personal/blog
+cd /Users/username/personal/blog
 claude mcp list
 ```
 
